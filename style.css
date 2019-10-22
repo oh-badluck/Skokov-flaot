@@ -1,0 +1,568 @@
+html,
+body {
+    margin: 0px;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 980px;
+    margin: 0px auto;
+    padding: 0;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+header {
+    background: url("img/bg_one.jpg") no-repeat top / cover;
+    height: 850px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu {
+    float: right;
+    margin-top: 50px;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    list-style-type: none;
+    margin: 0px 0px 0px 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    float: right;
+}
+
+
+.menu a {
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu a:after {
+    background-color: #fe504f;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    margin-top: 4px;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.menu a:hover:after,
+.menu a:focus:after {
+    width: 100%;
+}
+
+
+
+.logo {
+
+    float: left;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.logo a {
+    color: #fe504f;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.header_content {
+    margin-top: 160px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.header_content h1 {
+
+    width: 600px
+}
+
+.header_content p {
+
+    color: #ffffff;
+    width: 480px;
+
+}
+
+.button {
+    padding-top: 40px;
+}
+
+.button:nth-child(1) {
+    float: left;
+
+}
+
+.button a {
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #fe504f;
+    border-radius: 30px;
+    margin: 40px 40px 0px 0px;
+    padding: 15px 40px;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.button a:hover {
+    background-color: #343434;
+}
+
+/*  _________________________________________ section_two______________________________________ */
+
+section {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.text_block h2,
+.text_block p {
+    text-align: center;
+    color: #adadad;
+}
+
+.text_block h2 {
+    text-transform: uppercase;
+    color: #343434;
+
+}
+
+.icons_section {
+    margin-top: 70px;
+}
+
+.icons_block {
+    width: 200px;
+    height: 230px;
+    text-align: center;
+    float: left;
+    padding: 20px;
+}
+
+hr {
+    color: #fe504f;
+    width: 60px;
+    height: 2px;
+    background-color: #fe504f;
+    padding: 0;
+}
+
+.icons_block h3 {
+    color: #343434;
+    font-size: 16px;
+}
+
+.icons_block p {
+    color: #adadad;
+    font-size: 14px;
+}
+
+/* _________________________________section tree____________________________________ */
+
+.contact_us {
+    background: url("img/bg.jpg");
+    height: 350px;
+}
+
+.contact_us h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 140px;
+}
+
+.contact_us .button {
+    margin-left: 400px;
+}
+
+/* _________________________________section  four____________________________________ */
+
+.about_us {
+    margin-top: 60px;
+}
+
+.about_us .text_block {
+    width: 850px;
+    margin-left: 60px;
+}
+
+.what_we_do {
+    width: 450px;
+    height: 450px;
+    float: left;
+
+}
+
+.what_we_do p {
+    font-size: 14px;
+}
+
+.about_us h3 {
+    color: #fe504f;
+    text-transform: uppercase;
+}
+
+h3 span {
+    border-bottom: 3px solid #fe504f;
+
+}
+
+
+.our_clients {
+    width: 450px;
+    height: 450px;
+    float: right;
+}
+
+.our_clients img {
+
+    width: 145px;
+    height: 145px;
+
+}
+
+.our_team {
+    float: left;
+}
+
+
+/* Our Team */
+
+
+.cooperator {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cooperator_t {
+    width: 160px;
+    height: 160px;
+    float: left;
+}
+
+.our_team img {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.clark_kent {
+    height: 160px;
+    width: 160px;
+    background-color: #fe504f;
+    color: #ffffff;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.clark_kent h3 {
+    color: #ffffff;
+    font-size: 24px;
+    padding: 0px 10px 0px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: none;
+}
+
+.red_line {
+    background-color: #b63737;
+    height: 1px;
+    width: 160px;
+    margin: 0px 15px 0px 15px;
+    text-align: center;
+}
+
+.clark_kent p span {
+    font-weight: bold;
+}
+
+.clark_kent p {
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+/* section_five */
+
+.stategick {
+    background: url("img/bg_two.jpg");
+    height: 350px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.stategick_content {
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 60px;
+}
+
+.play {
+    color: #ffffff;
+    font-size: 30px;
+
+
+}
+
+.play {
+    border: 2px solid #fe504f;
+    background-color: #fe504f;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 40px 0px 0px 440px
+}
+
+.play i {
+    margin: 25px 10px 10px 15px;
+}
+
+.stategick_content h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 34px;
+}
+
+.stategick_content p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+
+/* section:six news */
+
+.new_content {
+    background: url("img/bg_tree.png") no-repeat center;
+    height: 650px;
+}
+
+
+.new_block {
+    height: 300px;
+    width: 200px;
+
+}
+
+.new_block h3{
+    color: #fe504f;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.new_block p{
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 18px;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.new_block .data p {
+    padding-top: 15px;
+    color: #fe504f;
+    font-size: 12px;
+    text-align: right;
+    float: right;
+}
+.new_line{
+        width: 50px;
+        height: 2px;
+        float:left;
+        background-color: #fe504f;
+}
+
+.block_one{
+    margin: 0px 0px 0px 520px;
+    padding: 30px 0px 0px 0px;
+}
+
+.block_two{
+    margin: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 0px;
+    float:left;
+}
+
+.block_tree{
+    margin: 0px 20px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: right;
+}
+
+/* contact */
+
+.contact{
+    background: url("img/bg_four.jpg") no-repeat ;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact_information{
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+
+.contact_form{
+    float: right;
+    width: 400px;
+    height: 400px;
+}
+
+.contact h2{
+    color: #fe504f;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-top: 60px;
+}
+.contact p{
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.contact_information i{
+   
+   padding: 0px 0px 0px 5px;
+    color: #fe504f;
+    font-size: 18px
+}
+.icons_two i{
+    padding: 2px 0px 0px 3px;
+    margin: 5px 0px 0px 5px;
+}
+
+.icons_one i{
+    padding: 0px 0px 0px 5px;
+    margin: 5px 0px 0px 5px;
+}
+
+.icons_tree i{
+    padding: 4px 0px 0px 2px;margin: 0px 0px 0px 3px;
+}
+
+.icons_contact{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid #fe504f;
+    float: left;
+
+    
+}
+
+.icons_block_contact{
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 300px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.contact_form h2{
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+}
+
+.contact_form .new_line{
+    margin-top: 0px;
+}
+.contact_form p{
+    float: left;
+    width: 400px;
+}
+
+.contact_block_input input{
+    float: left;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #adadad;
+    color: #adadad; 
+    padding: 10px 15px;
+    margin: 5px;
+}
+
+.contact_block_input input:nth-child(4){
+    height: 170px;
+    margin: 0px 0px 40px 5px;
+}
+
+.contact_block_input .button{
+    float: left;
+}
+
+.button_send{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #fe504f;
+    padding: 10px 50px;
+    font-size: 14px;
+    border-radius: 20px;
+    font-weight: lighter;
+    margin: 20px 0px 0px 310px;
+}
+
+.button_contact{
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: #343434;
+    height: 100px;
+}
+.left_block{
+    width: 300px;
+    display: block;
+    float:left;
+}
+.left_block p{
+    margin: 0px 0px 0px 0px;
+    padding:  50px 0px 0px 0px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+.right_block{
+    float: right;
+    margin-top: 35px;
+    
+}
+.right_block i{
+    color: #fe504f;
+    padding: 10px;
+}
